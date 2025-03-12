@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 import os
 load_dotenv()
 
-dataframe1 = pd.read_excel("data.xlsx")
+dataframe = pd.read_excel("Team DD 2025.xlsx", sheet_name="Automation")
 
-data = dataframe1.to_dict()
+data = dataframe.to_dict()
 
 
 smtp_server = "smtp.gmail.com"
